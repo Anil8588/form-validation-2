@@ -1,0 +1,36 @@
+body{
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#form-container{
+    background-color: white;
+    text-align: center;
+    padding: 50px;
+    border: 5px solid black;
+    
+
+}
+
+input{
+    width: 200px;
+    margin: 10px 0px;
+    padding: 10px;
+  
+}
+.Error{
+    color: red;
+    margin: 0px;
+    text-align: left;
+
+}
+input[type="submit"]{
+    width: 222px;
+   background-color: aqua;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+}
